@@ -1,0 +1,9 @@
+model_list:
+  - model_name: gpt-4.1
+    litellm_params:
+      model: openai/gpt-4.1
+      api_key: "os.environ/OPENAI_API_KEY"
+
+litellm_settings:
+  set_verbose: True
+  drop_params: True
