@@ -5,5 +5,5 @@ model_list:
       api_key: "os.environ/OPENAI_API_KEY"
 
 litellm_settings:
-  set_verbose: True
+  set_verbose: False
   drop_params: True

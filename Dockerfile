@@ -12,4 +12,4 @@ EXPOSE 4000
 
 # Start LiteLLM
 # --host 0.0.0.0 is required for Koyeb networking
-CMD ["--config", "config.yaml", "--port", "4000", "--host", "0.0.0.0"]
+CMD ["--config", "config.yaml", "--port", "4000", "--host", "0.0.0.0", "--num_workers", "1"]
