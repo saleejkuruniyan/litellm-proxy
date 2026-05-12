@@ -1,5 +1,5 @@
 # Use the official LiteLLM image
-FROM ghcr.io/berriai/litellm:main-latest
+FROM ghcr.io/berriai/litellm:v1.80.10.rc.5
 
 # Set the working directory
 WORKDIR /app
